@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "포스트맨(Postman) 쉽게 쓰는 방"
+title:  포스트맨(Postman) 쉽게 쓰는 방법
 date:   2020-01-04 17:20:00
 last_modified_at:  2020-01-04 17:20:00
 excerpt: "How to use postman easily"
