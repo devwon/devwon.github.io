@@ -6,7 +6,7 @@ layout: default
     <div class="section-backgroundImage">
 
       {% if page.image.feature %}
-        <img class="post-featuredImage" src="{{ page.image.feature | prepend: site.baseurl_featured_img }}" style="
+        <img class="post-featuredImage" src="{{ site.baseurl }}{{ site.baseurl_featured_img }}{{ page.image.feature }}" style="
         {% if page.image.topPosition %}
           top:{{ page.image.topPosition }};
         {% endif %}

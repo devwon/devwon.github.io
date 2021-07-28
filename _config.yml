@@ -4,7 +4,8 @@ markdown:            kramdown
 highlighter:         rouge
 
 # Permalinks
-permalink:           /:title
+# permalink:           /:title
+permalink:           pretty
 #relative_permalinks: true
 
 # Setup
