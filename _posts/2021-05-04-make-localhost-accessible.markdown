@@ -3,7 +3,7 @@ layout: post
 title:  "로컬 호스트를 외부에서 접속 가능하게 만들기"
 date:   2021-05-04 10:20:00
 last_modified_at:  2021-07-28 18:22:00
-categories: 협업
+categories: working-relationship
 tags:  localhost, hosting, network, accesible, devwon
 image:
   feature: local_server_access.png
@@ -11,10 +11,6 @@ image:
 bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: yes
----
-### 로컬 호스트를 외부에서 접속 가능하게 만들기
-
-
 ---
 
 분리되어있는 백-프론트 개발을 하면서 로컬 환경에서 많이들 테스트하시죠?

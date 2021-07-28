@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Build A jekyll blog-테스트수정입니다
+title: 기술블로그 운영을 위해 Jekyll 설치
 date: 2018-01-01T17:03:00.000Z
 last_modified_at: 2020-10-02T17:03:00.000Z
 excerpt: how to bulid a jekyll blog?
-categories: history
+categories: blog
 tags: 'jekyll, blog'
 image:
   feature: jekyll-logo.jpg
@@ -14,13 +14,11 @@ bgGradientOpacity: darker
 syntaxHighlighter: false
 published: true
 ---
-### [기술블로그 운영을 위해 Jekyll 설치]
-#### -테스트수정입니다
 #### 참고 사이트 - [[지킬로 깃허브에 무료 블로그 만들기]](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)
 
 *기술블로그로 무엇이 좋을까 찾아보다가 내맘대로 커스터마이징(customizing)할 수 있는 jekyll로 블로그를 만들기로 결정하고 [참고 사이트](https://nolboo.kim/blog/2013/10/15/free-blog-with-github-jekyll/)에 따라 기술블로그를 만들었다.~~(이때는 커스터마이징이 이렇게 힘들줄 몰랐음)~~
 그 과정에서 나온 **오류들, 해결과정**을 정리해보려고 한다:)*
-## 1. jekyll 설치
+### 1. jekyll 설치
 
   terminal에
   `$sudo gem install Jekyll`

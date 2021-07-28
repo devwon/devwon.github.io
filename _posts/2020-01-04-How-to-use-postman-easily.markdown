@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "How to use postman easily"
+title:  "포스트맨(Postman) 쉽게 쓰는 방법"
 date:   2020-01-04 17:20:00
 last_modified_at:  2020-01-04 17:20:00
-excerpt: "lalala"
-categories: history
+excerpt: "How to use postman easily"
+categories: backend
 tags:  Postman, django, python, collection
 image:
   feature: postman-logo.png

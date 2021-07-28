@@ -3,7 +3,7 @@ layout: post
 title:  "About me"
 date:   2019-09-06 13:03:00
 last_modified_at:  2019-09-06 17:03:00
-excerpt: "hyerin"
+excerpt: "about hyerin"
 categories: introduce
 tags:  info, blog, self-introduce
 image:
@@ -15,27 +15,39 @@ syntaxHighlighter: yes
 
 ---
 
-## 기본 인적 사항
+#### 기본 인적 사항
 ---
-#### [Education]
-> Yang-myeong Girls' High School : 양명여자고등학교          
-> *May. 2012 - Feb. 2014*
+##### [Education]
+- Yang-myeong Girls' High School
+>> 양명여자고등학교          
+>> 2012년 5월 - 2014년 2월
 
-> Kyonggi University : 경기대학교                              
-> MIS, Management Information System : 경영정보학과         
-> *May. 2014 - Feb. 2018* 
+- Kyonggi University: MIS, Management Information System
+>>경기대학교: 경영정보학과         
+> 2014년 3월 - 2018년 2월 
 
 
-#### [Work Experience]
-> LDCC, Lottecard IS team, web development :             
-> 롯데정보통신, 카드IS팀, 인터넷업무(웹개발)          
-> *Aug. 2018 - Oct. 2019*
+##### [Work Experience]    
+- HAKDOKMAN, Develop team, Back-end development
+>> [학생독립만세](https://www.hakdokman.com/), 개발팀, 백엔드개발(웹개발)        
+>> 2019년 11월 - 현재
 
-> HAKDOKMAN, Develop team, Back-end development :             
-> [학생독립만세](https://www.hakdokman.com/), 개발팀, 백엔드개발(웹개발)         
-> *Nov. 2019 - Now*
+- LDCC, Lottecard IS team, web development      
+>> 롯데정보통신, 카드IS팀, 인터넷업무(웹개발)    
+>> 2018년 8월 - 2019년 10월
 
-#### [Stacks]
+##### [Extra Experiences]
+- 패스트캠퍼스 보조강사/리뷰어 활동
+>> ‘바이트디그리 for KT : Lv.2 Python & Django Essentials 1,2기'       
+>> 2021년 5월 - 현재
+
+- 구름에듀 온라인 강의 연재
+>> ['신입 개발자로 살아남기 Lv1. 나만의 기술 블로그로 관리하는 개발자 커리어'](https://edu.goorm.io/learn/lecture/23072/%EC%8B%A0%EC%9E%85-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A1%9C-%EC%82%B4%EC%95%84%EB%82%A8%EA%B8%B0-lv1-%EB%82%98%EB%A7%8C%EC%9D%98-%EA%B8%B0%EC%88%A0-%EB%B8%94%EB%A1%9C%EA%B7%B8%EB%A1%9C-%EA%B4%80%EB%A6%AC%ED%95%98%EB%8A%94-%EA%B0%9C%EB%B0%9C%EC%9E%90-%EC%BB%A4%EB%A6%AC%EC%96%B4)   
+>> 2020년 10월
+
+- 회사뉴스봇, 주요통계봇, 코드리뷰 리마인더봇 등 크롤링봇을 통한 사내 업무 자동화
+
+##### [Stacks]
 [![devwon's stacks](https://drive.google.com/uc?id=1VRNEXwEcwQkyMF-BSKIdhkMGMUg-FA7C "클릭하여 자세히 보기"){:width="80%" height="60%"}](https://stackshare.io/devwon/my-stack)
 
 > java, node.js, python, R, mongoDB, git, OracleDB, jira, docker, 
@@ -43,12 +55,12 @@ syntaxHighlighter: yes
 
 > SQL-D 자격증 보유
 
-#### [More in github]
+##### [More in github]
 [link to Github!](https://github.com/devwon)
 
-## 경험 및 경력기술서
+#### 경험 및 경력기술서
 ---
-#### [엘드림 페스타 2019 이벤트 개인화 노출] 
+##### [엘드림 페스타 2019 이벤트 개인화 노출] 
 
 2019-05-27 ~ 2019-06-21 
 
@@ -63,7 +75,7 @@ syntaxHighlighter: yes
 3) 공헌한 점 : 승인업무와 OGG인 테이블에서 해당 고객 볼개수 조회 쿼리 개발,
             볼개수를 개인화한 값으로 치환하도록 프로세스 개발 
 
-#### [중편카드신청 프로세스 개발] 
+##### [중편카드신청 프로세스 개발] 
 
 2019-01-07 ~ 2019-02-01 
 
@@ -87,7 +99,7 @@ syntaxHighlighter: yes
              우선순위를 부여, 우서순위가 높은 순으로 분석, 구현 및 테스트를 진행하였습니다. 
              그룹핑을 함으로써 더 체계적인 분석과 효율적인 시간 활용이 가능하였습니다.
 
-#### [이미지 분석기 ios앱 제작(모바일 머신러닝)] 
+##### [이미지 분석기 ios앱 제작(모바일 머신러닝)] 
 
 2019-02-03 ~ 2019-02-04 
 
@@ -106,7 +118,7 @@ syntaxHighlighter: yes
               더 고도화해야하지만 집중력을 끌어모으고나서 개발할 예정입니다. 
 [소스는 여기](https://github.com/devwon/ML-test)
 
-#### [nodeJS로 웹쇼핑몰 구축]
+##### [nodeJS로 웹쇼핑몰 구축]
 
 2018-01-22 ~ 2018-02-21 
 

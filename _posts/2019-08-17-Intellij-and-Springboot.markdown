@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "intellij&springBoot"
+title:  "intelliJ 이용한 springBoot 프로젝트"
 date:   2019-08-17 00:09:00
 last_modified_at:  2019-08-17 00:09:00
-excerpt: "lalala"
-categories: history
+excerpt: "springBoot with intelliJ"
+categories: backend
 tags:  springBoot, intellij, gradle, docker
 image:
   feature: springboot.png
