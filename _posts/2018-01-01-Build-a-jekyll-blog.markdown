@@ -5,7 +5,7 @@ date: 2018-01-01T17:03:00.000Z
 last_modified_at: 2020-10-02T17:03:00.000Z
 excerpt: how to bulid a jekyll blog?
 categories: blog
-tags: 'jekyll, blog'
+tags: jekyll, blog
 image:
   feature: jekyll-logo.jpg
   topPosition: 0px
