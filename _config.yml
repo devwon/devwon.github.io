@@ -13,7 +13,7 @@ timezone:            Asia/Seoul # eg. Asia/Kathmandu
 locale:              kr # eg. en_us
 name:			           devwon's blog
 title:               Devwon's blog
-tagline:             'tagline'
+tagline:             'Connecting the dots'
 description:         'description'
 url:                 https://devwon.github.io
 rss:                 https://blog.devwon.site
