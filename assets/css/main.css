@@ -232,7 +232,8 @@ th {
 html {
   /* Change default typefaces here */
   font-family: "Source Serif Pro", serif;
-  font-size: 137.5%;
+  /*font-size: 137.5%;*/
+  font-size: 100%;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.8);
   -webkit-font-smoothing: antialiased;
@@ -417,7 +418,8 @@ hr {
 }
 
 .container--content {
-  max-width: 700px;
+  /*max-width: 700px;*/
+  max-width: 1000px;
 }
 
 .is-darkBackgrounded,
