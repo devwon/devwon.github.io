@@ -10,7 +10,7 @@ image:
   topPosition: 0px
 bgContrast: dark
 bgGradientOpacity: darker
-syntaxHighlighter:
+syntaxHighlighter: yes
 ---
 
 > celery worker, celery flower 같은 오픈소스를 디버깅하고 싶을 때가 있습니다. 
