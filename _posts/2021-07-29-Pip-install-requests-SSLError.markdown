@@ -12,7 +12,7 @@ bgContrast: dark
 bgGradientOpacity: darker
 syntaxHighlighter: yes
 ---
-> python 바이트 디그리 for KT 수강생분들을 위한 포스팅입니다.
+> 패스트캠퍼스 python 바이트 디그리 for KT 수강생분들을 위한 포스팅입니다.
 
 현재 수강생분들 개발 환경에서 빈번하게 발생하고 있는 requests 패키지 설치시 SSLError에 대해 해결 방법 공유 드립니다.
 
