@@ -10,6 +10,9 @@
   <!-- Optimized for search engines -->
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
+  <!-- For Google Search -->
+  <meta name="google-site-verification" content="fWuqRY9Nm8E-HoeRBTw1wmZvSck-xNMgQxhAZoKyxaU" />
+
   {% if page.robots %}
     <meta name="robots" content="{{ page.robots }}">
   {% endif %}
@@ -27,6 +30,7 @@
 
   <!-- Copy code function -->
   <script src="/assets/javascripts/copyCode.js"></script>
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.url }}">
 
   {% if page.next.url %}
