@@ -15,7 +15,7 @@ name:			           devwon's blog
 title:               Devwon's blog
 tagline:             'Connecting the dots'
 description:         'description'
-url:                 https://devwon.github.io
+url:                 https://blog.devwon.site
 rss:                 https://blog.devwon.site
 baseurl:             ''    #'https://devwon.github.io/'
 baseurl_posts_img:   '/assets/images/posts/'
@@ -27,7 +27,7 @@ disqus:              devwon # get it on https://disqus.com/admin/
 
 author:
   name:           	 devwon
-  url:            	 https://devwon.github.io
+  url:            	 https://blog.devwon.site
   facebook:          username
   twitter:           username
   google_plus:       username
