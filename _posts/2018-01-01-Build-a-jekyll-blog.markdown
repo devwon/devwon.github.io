@@ -24,7 +24,7 @@ published: true
   `$sudo gem install Jekyll`
   를 입력하라고해서 입력했는데..
 
- <img width="557" alt="1" src="https://user-images.githubusercontent.com/34532192/40702364-7fe657c8-641c-11e8-96a9-6cc1e02c77ed.png">
+ <img width="100%" height="100%" alt="1" src="https://user-images.githubusercontent.com/34532192/40702364-7fe657c8-641c-11e8-96a9-6cc1e02c77ed.png">
  
   이러한 에러 발생.. stackoverflow, 구글링 통해 찾아봤더니
   `$gem update —-system`
@@ -32,7 +32,7 @@ published: true
 
   또 오류ㅜㅜ
 
-<img width="706" alt="2" src="https://user-images.githubusercontent.com/34532192/40702852-598b7d86-641e-11e8-9948-96f94d1f6c44.png">
+<img width="100%" height="100%" alt="2" src="https://user-images.githubusercontent.com/34532192/40702852-598b7d86-641e-11e8-9948-96f94d1f6c44.png">
 
   고민하다가..지난번 'fastcamp101-python'에서 살짝 배웠던 Homebrew를 사용하기로 함!
   [[지킬문서]](https://jekyllrb.com/docs/troubleshooting/#jekyll--mac-os-x-1011)
@@ -42,7 +42,7 @@ published: true
   `$sudo gem install Jekyll`
   다시 시도했더니 설치가 되었다..ㅎㅎ
 
-<img width="712" alt="gem installed" src="https://user-images.githubusercontent.com/34532192/40702719-da3922fe-641d-11e8-8f97-87be97c18c1f.png">
+<img width="100%" height="100%" alt="gem installed" src="https://user-images.githubusercontent.com/34532192/40702719-da3922fe-641d-11e8-8f97-87be97c18c1f.png">
 
   이렇게나 많은 gem들이 설치되었다:)
 
@@ -57,7 +57,7 @@ published: true
 
 `jekyll serve --watch`했는데.. 또 나의 친구💛오류가...
 
-<img width="719" alt="3" src="https://user-images.githubusercontent.com/34532192/40702644-902f21f4-641d-11e8-98db-5c2750752d57.png">
+<img width="100%" height="100%" alt="3" src="https://user-images.githubusercontent.com/34532192/40702644-902f21f4-641d-11e8-98db-5c2750752d57.png">
 
 
 >**허무했던  해결의 과정**
@@ -66,7 +66,7 @@ published: true
 >  `jekyll serve --watch`
 >  하니까 되었다.
 >  
->  <img width="692" alt="sever running" src="https://user-images.githubusercontent.com/34532192/40702714-d604cff8-641d-11e8-8d3d-59255557297d.png">
+>  <img width="100%" height="100%" alt="sever running" src="https://user-images.githubusercontent.com/34532192/40702714-d604cff8-641d-11e8-8d3d-59255557297d.png">
 
 ## 2-2. github에 저장소 추가
 
@@ -81,7 +81,7 @@ published: true
 이 단계로 하고 있었는데..
 마지막 `git push` 부분에서 에러가 나오셨도다...
 
-<img width="695" alt="4" src="https://user-images.githubusercontent.com/34532192/40702647-91265d66-641d-11e8-82c2-a98c3e4114bb.png">
+<img width="100%" height="100%" alt="4" src="https://user-images.githubusercontent.com/34532192/40702647-91265d66-641d-11e8-82c2-a98c3e4114bb.png">
 
 그래서 stackoverflow에 오류 내용을 검색했더니,
 
@@ -89,7 +89,7 @@ published: true
 
 `-u` 대신에 `-f`를 쓰란다! 입력하니 바로 해결ㅎㅎ
 
-<img width="671" alt="default" src="https://user-images.githubusercontent.com/34532192/40702649-92ae439c-641d-11e8-9002-9072486d7f1c.png">
+<img width="100%" height="100%" alt="default" src="https://user-images.githubusercontent.com/34532192/40702649-92ae439c-641d-11e8-9002-9072486d7f1c.png">
 
 >**번외**: git repository URL을 변경하는 방법
 >
@@ -102,6 +102,6 @@ published: true
 >
 > 개인적인 정보들을 추가해서 조금 꾸민 모습!
 
-<img width="769" alt="default" src="https://user-images.githubusercontent.com/34532192/40702837-48461ab8-641e-11e8-9b91-8765f7772a57.png">
+<img width="100%" height="100%" alt="default" src="https://user-images.githubusercontent.com/34532192/40702837-48461ab8-641e-11e8-9b91-8765f7772a57.png">
 
 > 이제 [Disqus](https://disqus.com/) 댓글기능을 붙이고, 메뉴를 추가하고, 꾸준히 웹개발 관련 글을 올리는 게 목표! 화이팅:)
