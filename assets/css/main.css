@@ -1344,7 +1344,8 @@ body {
 }
 
 .sidebar {
-  width: 14rem;
+  /*width: 14rem;*/
+  width: 20rem;
   visibility: hidden;
   padding: 30px 20px;
   font-family: "Roboto", sans-serif;
