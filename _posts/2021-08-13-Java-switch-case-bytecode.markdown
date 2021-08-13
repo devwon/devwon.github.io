@@ -24,7 +24,7 @@ syntaxHighlighter: yes
 
 ### if-else문
 ```java
-// 지금은 사라진 신용등급제에 따른 대출 한도
+// 지금은 사라진 신용등급에 따른 대출 한도
 
 int creditGrade = 1;
 int loanLimit;
@@ -41,7 +41,7 @@ if( creditGrade == 1){
 ```
 ### switch-case문
 ```java
-// 지금은 사라진 신용등급제에 따른 대출 한도
+// 지금은 사라진 신용등급에 따른 대출 한도
 
 int creditGrade = 1;
 int loanLimit;
@@ -62,7 +62,7 @@ switch( creditGrade ){
 **switch-case**문은 입력받은 케이스의 로직으로 바로 결정됩니다.
 
 if-else문은 방 위치를 몰라서 방문을 하나씩 두드려본다면 switch-case문은 방 위치를 바로 알아서 들어가는 느낌이랄까?
-그러니 "방이 많을 수록" 방문을 앞에부터 하나씩 두드려보는 if-else 보다 switch-case문이 더 유리할 수 밖에,
+그러니 "방이 많을 수록" 방문을 앞에부터 하나씩 두드려보는 if-else 보다 switch-case문이 더 유리할 수 밖에요,
 
 조건문 4개 이상일 때부터 if-else 보다 switch-case의 성능이 좋다고 하니 이때부터 이 차이가 더 극대화 되나보군요.
 
@@ -90,9 +90,10 @@ case문의 1,2,3,default가 그대로 tableswitch에 key에 들어가있네요. 
 
 ![javap_bytecode_switch_string](https://user-images.githubusercontent.com/34532192/129339652-1b750974-7583-46f6-96ea-e461b938f7a0.png){: width="100%" height="100%"}
 
-case에 "bronze", "silver", "golde"의 문자열을 넣어주었는데도, tableswitch의 key는 0,1,2,default로 바뀌었습니다! 여기서 봐야할 점은 숫자일 때는 key에 0 값이 없었는데, 여긴 0부터 시작한다는 점인데요..!
+case에 각각 "bronze", "silver", "gold"의 문자열을 넣어주었는데도, tableswitch의 key는 0,1,2 로 바뀌었습니다!
+여기서 봐야할 점은 숫자일 때는 key에 0이 없었는데, 여긴 0부터 시작한다는 점인데요..!
 
-추측하기로는 컴파일시 hashCode() 메서드에서 숫자일 때는 숫자로 바꿔주는 로직이 안돌고 그대로 들어갔지만, 
-여기서는 조건이 문자열이기 때문에 hashCode 메서드에 의해 숫자로 case문의 조건이 String 객체라면 String 객체는에 의해서 0부터 시작하는 int 값을 넣어주었기 때문일 것 같습니다.
+추측하기로는 컴파일시 hashCode() 메서드에서 case 조건이 숫자일 때는 따로 바꿔주는 로직이 안 돌고 그대로 들어갔지만, 
+여기서는 case 조건이 문자열이기 때문에 0부터 시작하는 int값을 넣어주었기 때문일 것 같습니다.
 
-이렇게 JAVA Switch-Case문 조건들이 tableswitch로 저장되는 모습을 확인했습니다. 다음에는 lookupswitch로 저장되는 모습도 확인해보겠습니다.
+이렇게 JAVA Switch-Case문 조건들이 tableswitch 형태로 저장되는 모습을 확인했습니다. 다음에는 lookupswitch 형태로 저장되는 모습도 확인해보겠습니다.
