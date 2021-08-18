@@ -77,14 +77,14 @@ if-else문은 방 위치를 몰라서 방문을 하나씩 두드려본다면 swi
 ```bash
 javap -c "클래스명".class
 ```
+
 오...!
+
+![javap_bytecode_switch_int](https://user-images.githubusercontent.com/34532192/129339637-8091d006-a75d-447e-aa92-172a41bfb09c.png){: width="100%" height="100%"}
 
 우측이 터미널 창인데, tableswitch라는 형태가 보입니다. value값으로 보이는 hashCode는 일반적으로 각 객체의 주소값을 변환한여 생성한 객체의 고유한 정수값으로, equals() 메서드에서 이 hashCode를 이용하여 객체를 비교합니다.
 
 case문의 1,2,3,default가 그대로 tableswitch에 key에 들어가있네요. 순서도 오름차순이었어서, 위에서 말한 것 처럼 hashCode() 메서드가 할 일을 줄여줬어요^^ loanLimit 변수의 값들은 sipush로 들어가있는데, sipush, istore, goto 등 에 대해서는 추후에 따로 포스팅하도록 하겠습니다. 자세한 내용은 [[오라클 공식문서-Compiling Switches]](https://docs.oracle.com/javase/specs/jvms/se12/html/jvms-3.html#jvms-3.10)를 참고해주세요.
-
-
-![javap_bytecode_switch_int](https://user-images.githubusercontent.com/34532192/129339637-8091d006-a75d-447e-aa92-172a41bfb09c.png){: width="100%" height="100%"}
 
 그렇다면 case에 문자열을 넣었을 때는 어떠할까요?
 
@@ -93,7 +93,7 @@ case문의 1,2,3,default가 그대로 tableswitch에 key에 들어가있네요. 
 case에 각각 "bronze", "silver", "gold"의 문자열을 넣어주었는데도, tableswitch의 key는 0,1,2 로 바뀌었습니다!
 여기서 봐야할 점은 숫자일 때는 key에 0이 없었는데, 여긴 0부터 시작한다는 점인데요..!
 
-추측하기로는 컴파일시 hashCode() 메서드에서 case 조건이 숫자일 때는 따로 바꿔주는 로직이 안 돌고 그대로 들어갔지만, 
+추측하기로는 컴파일시 hashCode() 메서드에서 case 조건이 숫자일 때는 따로 바꿔주는 로직이 안 돌고 그대로 들어갔지만,
 여기서는 case 조건이 문자열이기 때문에 0부터 시작하는 int값을 넣어주었기 때문일 것 같습니다.
 
 이렇게 JAVA Switch-Case문 조건들이 tableswitch 형태로 저장되는 모습을 확인했습니다. 다음에는 lookupswitch 형태로 저장되는 모습도 확인해보겠습니다.
